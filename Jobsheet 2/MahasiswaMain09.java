@@ -14,5 +14,9 @@ public class MahasiswaMain09 {
         Mahasiswa09 mhs2 = new Mahasiswa09("Annisa Nabila" , "2141720160" , 3.25, "TI 2L");
         mhs2.updateIPK(3.30);
         mhs2.tampilkanInformasi();
+
+        Mahasiswa09 mhsFarrel = new Mahasiswa09("Farrelyan Hilmy Araya", "254107060001", 3.75, "SIB 1C");
+        mhsFarrel.tampilkanInformasi();
+        System.out.println("Nilai Kinerja: " + mhsFarrel.nilaiKinerja());
     }
 }
